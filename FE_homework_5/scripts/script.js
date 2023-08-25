@@ -1,15 +1,15 @@
 /* ========= 1 Task =============
 
 
-var userNumber = prompt("Введите число:");
+let userNumber = prompt("Введите число:");
 
 
-var number = parseFloat(userNumber);
+let number = parseFloat(userNumber);
 
 
 if (!isNaN(number)) {
     
-    var tenPercent = number * 0.1;
+    let tenPercent = number * 0.1;
 
    
     console.log("10% от вашего числа:", tenPercent);
@@ -22,15 +22,15 @@ if (!isNaN(number)) {
 =========== 2 Task ================
 
 
-var firstNumber = prompt("Введите первое число:");
+let firstNumber = prompt("Введите первое число:");
 
 
-var secondNumber = prompt("Введите второе число:");
+let secondNumber = prompt("Введите второе число:");
 
 
-var number1 = parseFloat(firstNumber);
+let number1 = parseFloat(firstNumber);
 
-var number2 = parseFloat(secondNumber);
+let number2 = parseFloat(secondNumber);
 
 if (!isNaN(number1) && !isNaN(number2)) {
     
@@ -52,9 +52,9 @@ if (!isNaN(number1) && !isNaN(number2)) {
 
 
 
-var inputNumber = prompt("Введите число:");
+let inputNumber = prompt("Введите число:");
 
-var number = parseFloat(inputNumber);
+let number = parseFloat(inputNumber);
 
 if (!isNaN(number)) {
     
@@ -73,13 +73,13 @@ if (!isNaN(number)) {
 
 =========== 4 Task ===============
 
-var userName = prompt("Введите ваше имя:");
+let userName = prompt("Введите ваше имя:");
 
-var userAge = prompt("Введите ваш возраст:");
+let userAge = prompt("Введите ваш возраст:");
 
 
 
-var age = parseInt(userAge);
+let age = parseInt(userAge);
 
 
 
